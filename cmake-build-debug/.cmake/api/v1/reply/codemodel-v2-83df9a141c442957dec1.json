@@ -1,0 +1,228 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "external/assimp",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.assimp-Debug-6c80f7dfb1f9cc507e4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/assimp",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "external/assimp/code",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.assimp.code-Debug-c59f14155cd425f525d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/assimp/code",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "external/assimp/test",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-external.assimp.test-Debug-e8ef53d6c457bd3eb309.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/assimp/test",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "external/assimp/test/headercheck",
+					"jsonFile" : "directory-external.assimp.test.headercheck-Debug-55667fb3fd35c462ee55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "external/assimp/test/headercheck"
+				},
+				{
+					"build" : "external/SphereMeshBlendShape",
+					"jsonFile" : "directory-external.SphereMeshBlendShape-Debug-58b7f485b8ea9dff6d4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/SphereMeshBlendShape",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SMRayTracingRenderer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Assimp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SphereMeshBlendShape",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SMRayTracingRenderer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SMRayTracingRenderer-Debug-a584b0fe104fdf8aa09f.json",
+					"name" : "SMRayTracingRenderer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SMRayTracingRenderer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SMRayTracingRenderer_autogen-Debug-5353fab9b7edaa1e7339.json",
+					"name" : "SMRayTracingRenderer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SMRayTracingRenderer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SMRayTracingRenderer_autogen_timestamp_deps-Debug-a8768f8c29959bd027fd.json",
+					"name" : "SMRayTracingRenderer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SphereMeshBlendShape::@ec85f99ed8afcac2c9d3",
+					"jsonFile" : "target-SphereMeshBlendShape-Debug-47484cda8e074e006fec.json",
+					"name" : "SphereMeshBlendShape",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "assimp::@f3a6284ec5dbac1d6aa0",
+					"jsonFile" : "target-assimp-Debug-a80ac2c4df2719c0f27f.json",
+					"name" : "assimp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@3253ab71256c6811a023",
+					"jsonFile" : "target-uninstall-Debug-e6e07a6af19322b3af9a.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "unit::@fef23bd2ce31f13f63ea",
+					"jsonFile" : "target-unit-Debug-ac1f287bdb9841bf4bd4.json",
+					"name" : "unit",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug",
+		"source" : "/Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

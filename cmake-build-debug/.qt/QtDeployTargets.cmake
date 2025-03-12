@@ -1,2 +1,8 @@
+set(__QT_DEPLOY_TARGET_assimp_FILE /Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug/external/assimp/bin/libassimpd.5.4.3.dylib)
+set(__QT_DEPLOY_TARGET_assimp_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_unit_FILE /Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug/external/assimp/bin/unit)
+set(__QT_DEPLOY_TARGET_unit_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_SphereMeshBlendShape_FILE /Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug/external/SphereMeshBlendShape/libSphereMeshBlendShaped.a)
+set(__QT_DEPLOY_TARGET_SphereMeshBlendShape_TYPE STATIC_LIBRARY)
 set(__QT_DEPLOY_TARGET_SMRayTracingRenderer_FILE /Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug/SMRayTracingRenderer)
 set(__QT_DEPLOY_TARGET_SMRayTracingRenderer_TYPE EXECUTABLE)
