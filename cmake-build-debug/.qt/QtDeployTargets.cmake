@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_SMRayTracingRenderer_FILE /Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug/SMRayTracingRenderer)
+set(__QT_DEPLOY_TARGET_SMRayTracingRenderer_TYPE EXECUTABLE)

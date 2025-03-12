@@ -1,0 +1,5 @@
+/Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug/CMakeFiles/SMRayTracingRenderer.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug/CMakeFiles/SMRayTracingRenderer_autogen_timestamp_deps.dir
+/Users/davidepaollilo/Desktop/Workspace/C++/SMRayTracingRenderer/cmake-build-debug/CMakeFiles/SMRayTracingRenderer_autogen.dir
